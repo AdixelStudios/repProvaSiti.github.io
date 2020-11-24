@@ -12803,13 +12803,6 @@ a.anchor {
   background-color: #E6D8BE;
 }
 
-@media screen and (max-width: 768px) {
-  #cosa-section a {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-}
-
 #cosa-section .lista-1 {
   margin-top: 8px;
   margin-left: 0;
