@@ -8,6 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+/*Navbar Burger */
 document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
@@ -33,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
+/* Carousel */
 var myCardSwiper = new Swiper('.swiper-container', {
   loop:true,
     

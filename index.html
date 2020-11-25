@@ -42,7 +42,7 @@
         <a class="anchor" id="hero-anchor"></a>
         <div class="container contain-section is-max-widescreen">
             <div class="columns p-3">
-                <div class="column is-8 p-6">
+                <div class="column is-8">
                     <h1 class="title is-2">LIMOZEN </h1>
                     <h2 class="title">DA ANNI IL BRUCIA GRASSI PIU’ VENDUTO IN ITALIA</h2>
                     <ul>
@@ -57,7 +57,7 @@
                     <a href="#top-form" class="button is-primary is-large mt-5">ACQUISTA ORA</a>
                 </div>
                 <div class="column pl-6 is-hidden-touch">
-                    <video class="video1" width="300" height="240" autoplay loop>
+                    <video class="video1" width="300" height="240" autoplay="autoplay" loop="loop" muted="" preload="auto">
                         <source src="css/images/Limozenrotazione.MP4" type="video/mp4">
                     </video>
                 </div>
@@ -86,6 +86,7 @@
                         <li><p>Riceverai la consulenza gratuita con un nostro esperto</p></li>
                         <li><p>Spedizione Express</p></li>
                         <li><p>Pagamento alla Consegna</p></li>
+                        <li><p>1 Confezione da 120 compresse a soli <strong>33,9€</strong></p></li>
                     </ul>
                 </div>
             </div>
@@ -97,7 +98,7 @@
     <section id="ingred-section" class="section">
         <a class="anchor" id="ingred-anchor"></a>
         <div class="container is-max-desktop has-text-centered has-text-white">
-            <p>Le nostre compresse sono uniche nel panorama degli integratori italiani venduti on-line in quanto vengono realizzate con un processo di lavorazione INNOVATIVO che permette di mantenere intatte tutte le qualità degli ingredienti naturali.</p>
+            <p class="tit-top">Le nostre compresse sono uniche nel panorama degli integratori italiani venduti on-line in quanto vengono realizzate con un processo di lavorazione INNOVATIVO che permette di mantenere intatte tutte le qualità degli ingredienti naturali.</p>
             <hr>
         </div>
         <div class="container">
@@ -160,7 +161,25 @@
             <p class="title has-text-centered">SICURO ED EFFICACE E’ UN BRUCIA GRASSI NOTIFICATO AL MINISTERO DELLA SALUTE</p>
             <p>Limozen è un integratore alimentare rivoluzionario e potentissimo formulato in compresse facilissime da assumere.</p>
             <p>Il mix dei suoi ingredienti è una vera forza della natura!</p>
-            <p>Affrettati! L’offerta novembre 2020 Sta per scadere!</p>
+            <p class="offerta-p">Affrettati! L’offerta novembre 2020 Sta per scadere!</p>
+            <div class="columns is-vcentered">
+                <div class="column  is-narrow">
+                    <div class="columns is-vcentered">
+                        <div class="column is-3 is-hidden-touch"></div>
+                        <div class="column is-narrow is-hidden-touch">
+                            <div class="img-cont">
+                            </div>
+                        </div>
+                        <div class="column is-narrow">
+                            <p class="is-size-5">1 Confezione da 120 compresse a soli <strong>33,9€</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <a href="#top-form" class="button is-primary is-medium">ACQUISTA ORA</a>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -168,8 +187,8 @@
     <section id="perche-section" class="section">
         <a class="anchor" id="perche-anchor"></a>
         <div class="container is-max-desktop has-text-centered">
-            <p>Perchè scegliere </p>
-            <p class="title">LimoZen?</p>
+            <p class="subtitle is-6">Perchè scegliere </p>
+            <p class="title tit-1">LimoZen?</p>
             <hr>
         </div>
         <div id="second-cont" class="container is-max-widescreen">
@@ -225,7 +244,7 @@
                     <div id="singolo-box" class="container is-flex">
                         <div class="ml-4">
                             <p class="title">EFFICACE</p>
-                            <p>Stando alle ricerche condotte su piattaforme dedicate agli integratori, limozen ha riscontrato un’altissima percentuale di clienti soddisfatti (il 95% dei clienti che ha provato Limozen ha affermato di essere “molto soddisfatto” o “soddisfattissimo”.</p>
+                            <p>Stando alle ricerche condotte su piattaforme dedicate agli integratori, Limozen ha riscontrato un’altissima percentuale di clienti soddisfatti (il 95% dei clienti che ha provato Limozen ha affermato di essere “molto soddisfatto” o “soddisfattissimo”).</p>
                         </div>
                         <div class="perche-col1-4 is-hidden-touch pl-2"></div>
                     </div>
@@ -244,22 +263,29 @@
 
     <!-- Ordina Adesso section -->
     <section id="ordina-section" class="section">
-        <div class="container px-6 is-max-desktop">
+        <div id="ordina-cont" class="container is-max-desktop">
             <p class="title has-text-centered">ORDINARE ADESSO E' SEMPLICE E VELOCE</p>
-            <ul>
-                <li><p>Compila il modulo</p></li>
-                <li><p>Attendi la TELEFONATA di Conferma da parte di un nostro operatore</p></li>
-                <li><p>Ricevi l'ordine entro 24/48h</p></li>
-                <li><p>Paga Direttamente al Corriere in Contanti</p></li>
-            </ul>
-            <div id="col-mobile" class="columns">
-                <div class="column">
-                    <p>Solo per Oggi :</p>
-                    <p>Acquista subito LimoZen con 50% di Sconto</p>
+            <div class="columns">
+                <div class="column is-hidden-touch"></div>
+                <div class="column is-9">
+                    <ul>
+                        <li><p>Compila il modulo</p></li>
+                        <li><p>Attendi la TELEFONATA di Conferma da parte di un nostro operatore</p></li>
+                        <li><p>Ricevi l'ordine entro 24/48h</p></li>
+                        <li><p>Paga Direttamente al Corriere in Contanti</p></li>
+                    </ul>
+                    <div id="col-mobile" class="columns is-vcentered">
+                        <div class="column">
+                            <p>Solo per Oggi :</p>
+                            <p>Acquista subito LimoZen con <strong>50% di Sconto</strong></p>
+                            <p>1 Confezione da 120 compresse a soli <strong>33,9€</strong></p>
+                        </div>
+                        <div class="column is-narrow has-text-centered">
+                            <a href="#top-form" class="button is-primary is-medium">ACQUISTA ORA</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="column">
-                    <a href="#top-form" class="button is-primary is-medium">ACQUISTA ORA</a>
-                </div>
+                <div class="column is-hidden-touch"></div>
             </div>
         </div>
     </section>
@@ -268,11 +294,11 @@
     <!-- Testimonianze section -->
     <section id="testimonianze-section" class="section">
         <a class="anchor" id="testimonianze-anchor"></a>
-        <div class="container is-max-desktop px-6 has-text-centered">
-            <p class="title">Limozen è l’unico e inimitabile brucia grassi dagli effetti integrati</p>
+        <div id="cont-titoli" class="container is-max-desktop has-text-centered">
+            <p class="title mb-3 my-2">Limozen è l’unico e inimitabile brucia grassi dagli effetti integrati</p>
             <p>Ci sarà un motivo se tutti ne parlano!</p>
             <p>Limozen è il brucia grassi più imitato del 2020, ma DIFFIDA dalle copie!</p>
-            <p class="title">ECCO LE TESTIMONIANZE DI CHI HA PROVATO LIMOZEN</p>
+            <p class="title my-1">ECCO LE TESTIMONIANZE DI CHI HA PROVATO LIMOZEN</p>
         </div>
         <div id="testim-container" class="container is-max-widescreen">
             <div class="swiper-container">
@@ -365,9 +391,9 @@
     <!-- Form acquisto -->
     <section id="form-section" class="section">
         <a class="anchor" id="top-form"></a>
-        <div class="container has-text-centered has-text-white">
-            <h2 class="title has-text-white is-size-3">Acquista Limozen in Offerta:</h2>
-            <h3 class="title is-size-4 has-text-white">Lascia i tuoi dati nel modulo sottostante, un operatore ti contatterà entro 24 ore per confermarli e spedirti i prodotti direttamente al tuo indirizzo.</h3>
+        <div id="scrit-container" class="container has-text-centered has-text-white">
+            <h2 class="title has-text-white">Acquista Limozen in Offerta:</h2>
+            <h3 class="title has-text-white">Lascia i tuoi dati nel modulo sottostante, un operatore ti contatterà entro 24 ore per confermarli e spedirti i prodotti direttamente al tuo indirizzo.</h3>
         </div>
         <div id="form-container" class="container">
             <form action="">
